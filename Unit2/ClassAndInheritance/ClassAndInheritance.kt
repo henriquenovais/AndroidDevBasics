@@ -12,6 +12,7 @@
 
 import kotlin.math.PI
 import kotlin.math.pow
+import kotlin.math.sqrt
 
 fun main() {
     /**
@@ -39,6 +40,7 @@ fun main() {
         println("Material: ${buildingMaterial}")
         println("Has room? ${hasRoom()}")
         println("Floor area: ${floorArea()}")
+        getRoom()
     }
 
     with(roundHut) {
@@ -47,6 +49,8 @@ fun main() {
         println("Material: ${buildingMaterial}")
         println("Has room? ${hasRoom()}")
         println("Floor area: ${floorArea()}")
+        getRoom()
+        println("Carpet size: ${calculateMaxCarpetSize()}")
     }
 
     with(roundTower) {
@@ -55,6 +59,8 @@ fun main() {
         println("Material: ${buildingMaterial}")
         println("Has room? ${hasRoom()}")
         println("Floor area: ${floorArea()}")
+        getRoom()
+        println("Carpet size: ${calculateMaxCarpetSize()}")
     }
 }
 
@@ -68,6 +74,15 @@ abstract class Dwelling(private var residents: Int) {
     }
 
     abstract fun floorArea() : Double
+
+    fun getRoom() {
+        if (capacity > residents) {
+            residents++
+            println("You got a room!")
+        } else {
+            println("Sorry, at capacity and no rooms left.")
+        }
+    }
 
 }
 
@@ -89,6 +104,11 @@ open class RoundHut(residents: Int, val radius : Double) : Dwelling(residents) {
 
     override fun floorArea() : Double {
         return PI * radius.pow(2)
+    }
+
+    fun calculateMaxCarpetSize(): Double {
+        val diameter = 2 * radius
+        return sqrt(diameter * diameter / 2)
     }
 }
 
