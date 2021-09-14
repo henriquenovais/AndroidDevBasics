@@ -53,6 +53,9 @@ android {
 }
 
 dependencies {
+    // Coil
+    implementation "io.coil-kt:coil:1.1.1"
+
     // Moshi
     implementation 'com.squareup.moshi:moshi-kotlin:1.9.3'
 
