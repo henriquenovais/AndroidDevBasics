@@ -1,13 +1,19 @@
 package com.techyourchance.unittestingfundamentals.exercise1;
 
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 
 public class NegativeNumberValidatorTest {
 
-    public NegativeNumberValidator SUT = new NegativeNumberValidator();
+    public NegativeNumberValidator SUT;
+
+    @Before
+    public void testSetup(){
+        SUT = new NegativeNumberValidator();
+    }
 
     @Test
     public void sutIsNotNull() {

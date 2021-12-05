@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="134c588b-a7b0-477a-b0f9-5df05018a946" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unit_testing_fundamentals/src/test/java/com/techyourchance/unittestingfundamentals/exercise1/NegativeNumberValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/unit_testing_fundamentals/src/test/java/com/techyourchance/unittestingfundamentals/exercise1/NegativeNumberValidatorTest.java" afterDir="false" />
     </list>
