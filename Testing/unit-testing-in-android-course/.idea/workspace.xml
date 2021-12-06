@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="134c588b-a7b0-477a-b0f9-5df05018a946" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit_testing_fundamentals/src/test/java/com/techyourchance/unittestingfundamentals/exercise1/NegativeNumberValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/unit_testing_fundamentals/src/test/java/com/techyourchance/unittestingfundamentals/exercise1/NegativeNumberValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_testing_fundamentals/src/test/java/com/techyourchance/unittestingfundamentals/exercise3/IntervalsAdjacencyDetectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/unit_testing_fundamentals/src/test/java/com/techyourchance/unittestingfundamentals/exercise3/IntervalsAdjacencyDetectorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +31,23 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="21qFiMn9UakiVGHvbTVmavW0M3c" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -44,6 +59,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
@@ -52,10 +69,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.techyourchance.unittestingfundamentals.exercise3" />
       <recent name="com.techyourchance.unittestingfundamentals.exercise1" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.NegativeNumberValidatorTest">
+  <component name="RunManager" selected="Gradle.IntervalsAdjacencyDetectorTest.test">
     <configuration name="tutorial_android_application" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="unit-testing-in-android-course.tutorial_android_application" />
       <option name="DEPLOY" value="true" />
@@ -114,6 +132,27 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IntervalsAdjacencyDetectorTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.techyourchance.unittestingfundamentals.exercise3.IntervalsAdjacencyDetectorTest.test&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":unit_testing_fundamentals:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="NegativeNumberValidatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -158,6 +197,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.IntervalsAdjacencyDetectorTest.test" />
         <item itemvalue="Gradle.NegativeNumberValidatorTest" />
         <item itemvalue="Gradle.NegativeNumberValidatorTest.sutIsNotNull" />
       </list>
