@@ -73,7 +73,7 @@
       <recent name="com.techyourchance.unittestingfundamentals.exercise1" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.IntervalsAdjacencyDetectorTest.test">
+  <component name="RunManager" selected="Gradle.IntervalsAdjacencyDetectorTest.isAdjacent_AdjacentIntervalsWithOverlap_true">
     <configuration name="tutorial_android_application" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="unit-testing-in-android-course.tutorial_android_application" />
       <option name="DEPLOY" value="true" />
@@ -131,6 +131,48 @@
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="IntervalsAdjacencyDetectorTest.isAdjacent_AdjacentIntervalsWithOverlap_true" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.techyourchance.unittestingfundamentals.exercise3.IntervalsAdjacencyDetectorTest.isAdjacent_AdjacentIntervalsWithOverlap_true&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":unit_testing_fundamentals:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="IntervalsAdjacencyDetectorTest.notAdjacentInterval" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.techyourchance.unittestingfundamentals.exercise3.IntervalsAdjacencyDetectorTest.notAdjacentInterval&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":unit_testing_fundamentals:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="IntervalsAdjacencyDetectorTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -197,9 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.IntervalsAdjacencyDetectorTest.isAdjacent_AdjacentIntervalsWithOverlap_true" />
+        <item itemvalue="Gradle.IntervalsAdjacencyDetectorTest.notAdjacentInterval" />
         <item itemvalue="Gradle.IntervalsAdjacencyDetectorTest.test" />
-        <item itemvalue="Gradle.NegativeNumberValidatorTest" />
         <item itemvalue="Gradle.NegativeNumberValidatorTest.sutIsNotNull" />
+        <item itemvalue="Gradle.NegativeNumberValidatorTest" />
       </list>
     </recent_temporary>
   </component>
