@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="134c588b-a7b0-477a-b0f9-5df05018a946" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit_testing_fundamentals/src/test/java/com/techyourchance/unittestingfundamentals/exercise3/IntervalsAdjacencyDetectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/unit_testing_fundamentals/src/test/java/com/techyourchance/unittestingfundamentals/exercise3/IntervalsAdjacencyDetectorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Unit2/TipCalculator" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
