@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
     @SuppressLint("UseSwitchCompatOrMaterialCode")
     private fun calculateTip () {
-        val costInTextField = binding.costOfService.text.toString()
+        val costInTextField = binding.costOfServiceEditText.text.toString()
         /*
         //Custom nullsafe solution using "Java-based" logic:
         var cost : Double = 0.00
