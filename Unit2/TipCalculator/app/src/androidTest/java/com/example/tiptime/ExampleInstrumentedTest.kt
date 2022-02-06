@@ -20,7 +20,7 @@ import org.junit.Assert.*
 import org.junit.Rule
 
 @RunWith(AndroidJUnit4::class)
-class ExampleInstrumentedTest {
+class ExampleInstrumentedTest {s
     @get:Rule()
     val activity = ActivityScenarioRule(MainActivity::class.java) //tells to launch specific activity
 
