@@ -25,6 +25,20 @@ fun main() {
     ordersList.add(order2)
     ordersList.add(order3)
 
+    // Use builder pattern
+    val order4 = Order(4)
+        .addItem(Noodles())
+        .addItem(Vegetables("Cabbage", "Onion"))
+    ordersList.add(order4)
+
+    // Create and add order directly
+    ordersList.add(
+        Order(5)
+            .addItem(Noodles())
+            .addItem(Noodles())
+            .addItem(Vegetables("Spinach"))
+    )
+
     for (order in ordersList) {
     order.print()
     println()
@@ -63,13 +77,16 @@ open class Vegetables(vararg val toppings: String) : Item("Vegetables", 5) {
 class Order(val orderNumber : Int) {
     private val itemList = mutableListOf<Item>()
 
-    fun addItem(newItem: Item) {
+    fun addItem(newItem: Item): Order {
         itemList.add(newItem)
-   }
+        return this
+    }
 
-   fun addAll(newItems: List<Item>) {
-       itemList.addAll(newItems)
-   }
+    fun addAll(newItems: List<Item>): Order {
+        itemList.addAll(newItems)
+        return this
+    }
+
 
    fun print() {
         println("Order #${orderNumber}")
