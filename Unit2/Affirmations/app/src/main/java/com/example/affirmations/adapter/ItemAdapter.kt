@@ -22,6 +22,8 @@ class ItemAdapter(private val context: Context, private val dataset: List<Affirm
     }
 
     override fun onBindViewHolder(holder: ItemViewHolder, position: Int) {
+        val item = dataset[position]
+        holder.textView.text = context.resources.getString(item.stringResourceId)
         TODO("Not yet implemented")
     }
 
