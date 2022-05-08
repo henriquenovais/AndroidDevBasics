@@ -27,6 +27,36 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/dog_image_description" />
+
+            <TextView
+                android:id="@+id/dog_name"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Age:"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Hoobies:"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+            <TextView
+                android:id="@+id/dog_age"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+            <TextView
+                android:id="@+id/dog_hobbies"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+        </GridLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
         <!-- TODO: Note that, unlike the grid view list, one card in the vertical and horizontal
                lists effectively take up the width of the screen. This means you have more
@@ -41,7 +71,4 @@
                 The dog's name
                 The dog's age
                 The dog's hobbies-->
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
 </com.google.android.material.card.MaterialCardView>
