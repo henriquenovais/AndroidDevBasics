@@ -41,7 +41,7 @@ class DogCardAdapter(
     /**
      * Initialize view elements
      */
-    class DogCardViewHolder(view: View?): RecyclerView.ViewHolder(view!!) {
+    class DogCardViewHolder(view: View): RecyclerView.ViewHolder(view) {
         val dogglerImageView : ImageView = view.findViewById(R.id.doggler_image)
         val dogglerNameTextView : TextView = view.findViewById(R.id.doggler_name)
         val dogglerAgeTextView : TextView = view.findViewById(R.id.doggler_age)
@@ -52,9 +52,9 @@ class DogCardAdapter(
         var layoutID = 0
 
         //Conditional deviation in order to track if its GRID or VERICAL/HORIZONTAL layout
-        when(layout){
-            GRID -> layoutID = R.layout.grid_list_item
-            else -> layoutID = R.layout.vertical_horizontal_list_item
+        layoutID = when(layout){
+            GRID -> R.layout.grid_list_item
+            else -> R.layout.vertical_horizontal_list_item
         }
 
         //create a new view
@@ -80,6 +80,7 @@ class DogCardAdapter(
         //  R.string.dog_hobbies string constant.
         //  Passing an argument to the string resource looks like:
         //  resources?.getString(R.string.dog_hobbies, dog.hobbies)
+        resources?.getString(R.string.dog_hobbies, item.hobbies)
 
     }
 }
