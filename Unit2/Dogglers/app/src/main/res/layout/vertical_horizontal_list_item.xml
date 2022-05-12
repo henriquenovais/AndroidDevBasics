@@ -33,13 +33,14 @@
             android:layout_width="match_parent"
             android:layout_height="194dp"
             android:contentDescription="@string/dog_image_description"
+            android:scaleType="centerCrop"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/doggler_name"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
@@ -48,7 +49,7 @@
             app:layout_constraintTop_toBottomOf="@id/doggler_image"
             app:layout_constraintBottom_toTopOf="@id/doggler_age"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
-            android:text="Tzeitel" />
+            android:text="@string/dog_name" />
 
         <TextView
             android:id="@+id/doggler_age"
@@ -57,20 +58,22 @@
             android:layout_marginBottom="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
-            android:text="Age: 7"
+            android:text="@string/dog_age"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             app:layout_constraintStart_toStartOf="@id/doggler_vertical_layout"
             app:layout_constraintTop_toBottomOf="@id/doggler_name"
             app:layout_constraintBottom_toBottomOf="@id/doggler_vertical_layout"/>
 
         <TextView
+            android:id="@+id/doggler_hobbie"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             app:layout_constraintBottom_toBottomOf="@id/doggler_vertical_layout"
             app:layout_constraintEnd_toEndOf="@id/doggler_vertical_layout"
-            android:text="Hobbies: sunbathing"
+            android:text="@string/dog_hobbies"
             />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
