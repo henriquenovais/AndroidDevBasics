@@ -26,6 +26,5 @@ fun main() {
 
     val filteredNames = peopleAges.filter { it.key.length < 4 }
     println(filteredNames)
-
 }
 
